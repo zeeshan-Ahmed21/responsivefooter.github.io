@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: linear-gradient(180deg, #93dffa, #f0fafa, #a4fcfa);
+}
 .container{
     height: 100vh;
     width: 98vw;
@@ -86,44 +89,46 @@ a{
     .item{
         /* border: 1px solid; */
         height: 160px;
-        width: 100px;
+        width: 50px;
     }
     #headings{
-        font-size: 15px;
+        font-size: 6px;
+        font-weight: bolder;
     }
     .item4{
             /* border: 1px solid; */
             height: 160px;
-            width: 130px;
+            width: 100px;
             flex-wrap: nowrap;
-            font-size: 10px;
+            font-size: 7px;
     }
     li{
         margin-top: 17px;
-        font-size: 10px;
+        font-size: 7px;
     }
     .search{
         display: block;
     }
     #search{
         height: 30px;
-        width: 100px;
+        width: 68px;
         border-radius: 6px;
         padding-left: 15px;
-        font-size: 17px;
-        margin-top: 10PX;
+        font-size: 10px;
+        margin-top: 11PX;
     }
     #button1{
         height: 10px;
+        width: 80px;
+        font-size: 10px;
         border-radius: 6px;
         padding: 15px 10px;
         margin-top: 10PX;
-        margin-left: 5px;
     }
     .icons{
         /* border: 1px solid; */
         width: 100px;
-        font-size: 20px;
+        font-size: 15px;
         color: rgb(207, 203, 203);
         margin-top: 20px;
     }
@@ -139,16 +144,16 @@ a{
     }
     .item{
         /* border: 1px solid; */
-        height: 160px;
-        width: 150px;
+        height: 200px;
+        width: 100px;
     }
     #headings{
-        font-size: 20px;
+        font-size: 13px;
     }
     .item4{
             /* border: 1px solid; */
-            height: 160px;
-            width: 150px;
+            height: 200px;
+            width: 140px;
             flex-wrap: nowrap;
             font-size: 10px;
     }
@@ -161,18 +166,20 @@ a{
     }
     #search{
         height: 30px;
-        width: 100px;
+        width: 120px;
         border-radius: 6px;
         padding-left: 15px;
-        font-size: 17px;
+        font-size: 12px;
         margin-top: 10PX;
     }
     #button1{
         height: 10px;
+        width: 130px;
         border-radius: 6px;
         padding: 15px 10px;
         margin-top: 10PX;
         margin-left: 5px;
+        justify-content: center;
     }
     .icons{
         /* border: 1px solid; */
@@ -192,44 +199,44 @@ a{
     }
     .item{
         /* border: 1px solid; */
-        height: 200px;
-        width: 190px;
+        height: 270px;
+        width: 130px;
     }
     #headings{
-        font-size: 20px;
+        font-size: 17px;
     }
     .item4{
             /* border: 1px solid; */
-            height: 190px;
-            width: 140px;
+            height: 270px;
+            width: 200px;
             flex-wrap: nowrap;
             font-size: 18px;
     }
     li{
-        margin-top: 17px;
+        margin-top: 20px;
         font-size: 15px;
     }
     .search{
-        display: block;
+        display: flex;
     }
     #search{
         height: 30px;
         width: 100px;
         border-radius: 6px;
         padding-left: 15px;
-        font-size: 17px;
+        font-size: 13px;
         margin-top: 10PX;
     }
     #button1{
         height: 10px;
         border-radius: 6px;
-        padding: 15px 10px;
+        padding: 15px 5px;
         margin-top: 10PX;
         margin-left: 5px;
     }
     .icons{
         /* border: 1px solid; */
-        width: 100px;
+        width: 160px;
         font-size: 20px;
         color: rgb(207, 203, 203);
         margin-top: 20px;
@@ -237,20 +244,20 @@ a{
 }
 @media only screen and (min-width: 1279px) {
     .container{
-        border: 1px solid;
+        /* border: 1px solid; */
         height: 100vh;
         width: 98vw;
         margin: auto;
         font-family: Arial, Helvetica, sans-serif;
     }
     .footer{
-        border: 1px solid;
+        /* border: 1px solid; */
         border-radius: 10px;
         height: 400px;
-        width: 80vw;
+        width: 90vw;
         position: absolute;
-        bottom: 50px;
-        left: 135px;
+        bottom: 30px;
+        left: 65px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
